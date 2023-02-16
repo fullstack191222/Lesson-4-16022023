@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+     /*   Scanner scanner = new Scanner(System.in);
+        //Exercise user put grades till he put -1 in the end we should calculate average.
+        int sumGrades = 0;//all grades summarized
+        int numberOfGrades = 0;
+        int grade = 0;
+        //in the loop we will take grades from the user.
+        while (grade != -1) {
+            System.out.println("please enter next grade. when finished enter -1 ");
+            grade = scanner.nextInt();
+            if (grade != -1) {
+                sumGrades = sumGrades + grade;
+                numberOfGrades++;
+            }
+        }
+        double average = sumGrades/numberOfGrades;
+        System.out.println("the average of the grades is : " + average);*/
+
+        //Exercise
+        //user need to input five numbers
+        //need to print the sum of the numbers.
+        //use WHILE loop
+
+       /* int loopNumber = 0;
+        int sum = 0;
+        Scanner scanner = new Scanner(System.in);
+        while (loopNumber < 5) {  //0 //1 //2 //3 //4 //5
+            //we want to do it 5 times.
+            System.out.println("enter the number");
+            int i = scanner.nextInt();//user unpit
+            sum = sum + i;//0+20 = 20+50 = 70+100 = 170+10 + 10 = 190;
+            loopNumber ++;//adding one
+        }
+
+        System.out.println("the sum is : " + sum);
+*/
+
+        //tHE USER input number and the program calculates the factorial !
+        //example factorial(7) => 7*6*5*4*3*2*1
+       /* Scanner scanner = new Scanner(System.in);
+        System.out.println("please enter the number to calculate factorial");
+        int number = scanner.nextInt();//3
+        int multiplySum = 1; //1
+        //loop number of times
+        while (number > 0) { //3 > 0 .. 2>0  .. 1>0
+            //multiply all the numbers to get factorial
+            multiplySum = multiplySum * number; //1*3 -> 3 * 2 => 6 * 1 => 6
+            number--;//-1 for the loop   //3-1 => 2 -1 => 1 -1 = > 0
+        }
+        System.out.println("the factorial is : " + multiplySum);*/
+    }
+}
