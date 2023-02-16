@@ -1,0 +1,106 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+       //EXERCISE
+        //GET Number from the user.
+        //Print "*" the number of times which you have in input:
+        //example : input 5 -> output *****;
+        //use for and print (not println)
+
+      /*  Scanner scanner = new Scanner(System.in);
+        System.out.println("enter number");
+        int input = scanner.nextInt();//number from the user
+        //the number of iterations is from 0 to input
+        for (int i = 0; i < input; i++) {
+            //print * i number of times.
+            System.out.print("*");
+        }*/
+
+       /* int i = 0;
+        //do while ...
+        do {
+            System.out.println(i);
+            i++;
+        } while (i < 0);
+*/
+
+        //exercise 21 game .
+        //user asks to get the card from 1 to 10
+        //we need to give to user random card from 1 to 10.
+        //if user put 0 he dont want more cards
+        //if user input is 1 he want one more card.
+        //if sum of the cards of the user >21 he loses
+        //if sum of the cards = 21 he wins
+/*
+        Scanner scanner = new Scanner(System.in);
+        boolean toContinue = true;
+
+        int sumOfCards = 0;
+        do {
+            System.out.println("please enter 1 if you want to continue and 0 to stop");
+            int userChoose = scanner.nextInt();//to continue or to stop.
+            if (userChoose == 0) {
+                System.out.println("game finished your sum is : " + sumOfCards);
+                break;
+            }
+            //random number 1 to 10
+            int number = (int) (Math.random() * 10) + 1;
+            //Print the number which player drawn
+            System.out.println("the card you got is: " + number);
+            //add the card to the sum
+            sumOfCards = sumOfCards + number;
+            if (sumOfCards == 21) {
+                System.out.println("you win!");
+                toContinue = false;
+            } else if (sumOfCards > 21) {
+                System.out.println("you lost!");
+                toContinue = false;
+            } else {
+                System.out.println("you sum of the cards is: " + sumOfCards + " you can continue");
+            }
+        } while (toContinue);//true or false*/
+
+
+        //nested loops outer loop
+      /*  for (int j = 0; j<10; j++) {
+            //inner loop
+            for (int i = 0; i < j; i++) {
+                System.out.print(j+ "" +i + ";");
+            }
+            System.out.println();
+        }*/
+/*
+
+        String text = "textlong";
+        String text2 = "text";
+       // System.out.println(text.length());
+        String text3 = text + text2;
+        //text3 = text.concat(text2);
+        //System.out.println(text3);
+
+        //System.out.println(text.equals(text2));
+        String text4 =text2.toUpperCase();
+//        System.out.println(text4);
+//        System.out.println(text2);
+
+        String text5 = text.substring(2);
+        System.out.println(text5);
+
+        String text6 = text.substring(2, 4);
+        System.out.println(text6);
+
+        String name = "Arya stark";
+        int index = name.indexOf("star");
+        System.out.println(index);
+        System.out.println(name.substring(index));
+
+
+
+*/
+
+        int randomNum = (int)(Math.random() * 91) +10;
+
+    }
+}
